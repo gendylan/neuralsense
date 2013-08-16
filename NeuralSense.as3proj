@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <!-- Output SWF options -->
+  <output>
+    <movie disabled="False" />
+    <movie input="" />
+    <movie path="bin\Neural.swf" />
+    <movie fps="30" />
+    <movie width="500" />
+    <movie height="300" />
+    <movie version="10" />
+    <movie background="#FFFFFF" />
+  </output>
+  <!-- Other classes to be compiled into your SWF -->
+  <classpaths>
+    <class path="src" />
+  </classpaths>
+  <!-- Build options -->
+  <build>
+    <option accessible="False" />
+    <option allowSourcePathOverlap="False" />
+    <option benchmark="False" />
+    <option es="False" />
+    <option locale="" />
+    <option loadConfig="" />
+    <option optimize="True" />
+    <option showActionScriptWarnings="True" />
+    <option showBindingWarnings="True" />
+    <option showInvalidCSS="True" />
+    <option showDeprecationWarnings="True" />
+    <option showUnusedTypeSelectorWarnings="True" />
+    <option strict="True" />
+    <option useNetwork="True" />
+    <option useResourceBundleMetadata="True" />
+    <option warnings="True" />
+    <option verboseStackTraces="False" />
+    <option linkReport="" />
+    <option loadExterns="" />
+    <option staticLinkRSL="True" />
+    <option additional="+configname=air" />
+    <option compilerConstants="" />
+    <option customSDK="" />
+  </build>
+  <!-- SWC Include Libraries -->
+  <includeLibraries>
+    <!-- example: <element path="..." /> -->
+  </includeLibraries>
+  <!-- SWC Libraries -->
+  <libraryPaths>
+    <!-- example: <element path="..." /> -->
+  </libraryPaths>
+  <!-- External Libraries -->
+  <externalLibraryPaths>
+    <!-- example: <element path="..." /> -->
+  </externalLibraryPaths>
+  <!-- Runtime Shared Libraries -->
+  <rslPaths>
+    <!-- example: <element path="..." /> -->
+  </rslPaths>
+  <!-- Intrinsic Libraries -->
+  <intrinsics>
+    <!-- example: <element path="..." /> -->
+  </intrinsics>
+  <!-- Assets to embed into the output SWF -->
+  <library>
+    <!-- example: <asset path="..." id="..." update="..." glyphs="..." mode="..." place="..." sharepoint="..." /> -->
+  </library>
+  <!-- Class files to compile (other referenced classes will automatically be included) -->
+  <compileTargets>
+    <compile path="src\com\octadecimal\neuralsense\tests\TestFF.as" />
+  </compileTargets>
+  <!-- Paths to exclude from the Project Explorer tree -->
+  <hiddenPaths>
+    <hidden path="AIR_readme.txt" />
+    <hidden path="CreateCertificate.bat" />
+    <hidden path="PackageApplication.bat" />
+    <hidden path="application.xml" />
+    <hidden path="src\nl" />
+    <hidden path="src\com\octadecimal\neuralsense\tests\hopfieldgrid\hopfieldgrid.fla" />
+    <hidden path="src\com\octadecimal\neuralsense\tests\hopfieldgrid\hopfieldgrid.swf" />
+    <hidden path="src\com\octadecimal\neuralsense\tests\TestHopfieldNetwork.as" />
+    <hidden path="src\com\octadecimal\neuralsense\tests\hopfieldgrid\hopfieldgrid.html" />
+  </hiddenPaths>
+  <!-- Executed before build -->
+  <preBuildCommand>taskkill /f /fi "IMAGENAME eq adl.exe"</preBuildCommand>
+  <!-- Executed after build -->
+  <postBuildCommand alwaysRun="False" />
+  <!-- Other project options -->
+  <options>
+    <option showHiddenPaths="False" />
+    <option testMovie="Custom" />
+    <option testMovieCommand="F:\sdk\flex_41\bin\adl.exe;application.xml bin" />
+  </options>
+</project>

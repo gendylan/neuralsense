@@ -1,0 +1,2 @@
+"F:\sdk\flex4\bin\asdoc"  -output "F:\Projects\neuralsense\doc" -source-path F:\Projects\neuralsense\src F:\Projects\neuralsense\lib -library-path "F:\Projects\neuralsense\lib" -main-title "NeuralSense API Documentation" -window-title "NeuralSense API Documentation" -footer "Copyright 2010-2011, Dylan Heyes" -doc-classes com.octadecimal.neuralsense.collections.NVector com.octadecimal.neuralsense.tests.TestVectors com.octadecimal.neuralsense.util.Debug com.octadecimal.neuralsense.util.Strings -exclude-dependencies 
+ pause
